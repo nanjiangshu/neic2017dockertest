@@ -1,0 +1,9 @@
+# Compiled source
+*.pyc
+
+# vim temp files
+.*.swp
+
+# backup and tmp folder
+bak/
+tmp/
