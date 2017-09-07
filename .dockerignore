@@ -7,3 +7,5 @@
 # backup and tmp folder
 bak/
 tmp/
+
+ignore.txt
