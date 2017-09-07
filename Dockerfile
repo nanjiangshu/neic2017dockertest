@@ -14,4 +14,4 @@ WORKDIR /home/app
 # add the source code to WORKDIR/home/app
 ADD . .
 
-CMD ["/home/app/src/app.py"]
+CMD ["python", "/home/app/src/app.py"]
