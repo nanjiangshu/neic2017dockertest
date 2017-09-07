@@ -6,8 +6,9 @@ RUN apt-get  update -y
 RUN apt-get install curl -y
 RUN apt-get install wget -y
 RUN apt-get install vim -y
+RUN apt-get install python -y
 
 WORKDIR /home/app
 
 # add the source code to WORKDIR/home/app
-ADD . home/app/
+ADD . .
