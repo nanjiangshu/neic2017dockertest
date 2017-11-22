@@ -9,9 +9,9 @@ RUN apt-get install wget -y
 RUN apt-get install vim -y
 RUN apt-get install python -y
 
-WORKDIR /home/app
+WORKDIR /app
 
 # add the source code to WORKDIR/home/app
 ADD . .
 
-CMD ["python", "/home/app/src/app.py"]
+CMD ["python", "/app/src/app.py"]
